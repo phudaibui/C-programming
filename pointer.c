@@ -10,7 +10,6 @@ int main() {
     int *pAge = &age;
     birthday(pAge);
     printf("you are %d years olf", age);
-
     return 0;
 }
 

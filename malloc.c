@@ -23,8 +23,6 @@ int main() {
     }
 
     free(grades); // returning "rented" space back to the operating system 
-    grades = NULL; // avoid dangling pointers(unexisting momory)
-    
-
+    grades = NULL; // avoid dangling pointers(unexisting momory)  
     return 0;
 }
